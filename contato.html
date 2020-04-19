@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="grid.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="shortcut icon" href="img/virus.svg" type="image/x-icon" />
+	
+	
+	<!-- fontAwesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<body>
+	<header class="area">
+		<section class="topBar linha" id="topBar">
+			<div class="coluna coluna04 mobileHide">
+				<img src="img/virus.svg" class="icon">
+				<div class="name coluna coluna02 mobileHide">
+					<h1>O Bem na Covid</h1>
+				</div>
+			</div>
+			<div class="menu coluna coluna08 sdColuna08">
+				<ul>
+					<li ><a href="index.html" class="opcaoMenu ">HOME</a></li>
+					<li ><a href="sobre.html" class="opcaoMenu">SOBRE</a></li>
+					<li ><a href="contato.html" class="opcaoMenu atual">MANDA UM RECADO</a></li>
+					<li ><a href="saiba.html" class="opcaoMenu">SAIBA MAIS</a></li>
+				</ul>
+			</div>
+		</section>
+	</header>
+
+	<section class="areaAtiva">
+		<div class="area">
+			<div class="linha">
+				<div class="coluna coluna12">
+					<h2 class="titulo">Manda um Recado</h2>
+				</div>
+			</div>
+
+			<div class="linha">
+				<div class="coluna coluna12">
+					<form action="https://formspree.io/mjveqpde" method="POST">
+						<label >Nome:
+							<input type="text" name="name">
+						</label>
+						<label >Email:
+							<input type="email" name="_replyto">
+						</label>
+						<label>Mensagem:
+							<textarea name="message"></textarea>
+						 </label>
+						 <!-- your other form fields go here -->
+
+					  	<button type="submit">Pronto</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="area">
+			<div class="linha">
+				<div class="coluna coluna12">
+					<h5>Madreyv Gomes</h5>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
