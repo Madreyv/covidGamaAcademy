@@ -192,7 +192,8 @@ footer{
 }
 
 .textoFonte h5, .textoFonte p{
-  margin: 2%
+  margin: 2%;
+  text-align: center;
 }
 
 .textoFonte h5{
@@ -284,6 +285,26 @@ button{
       margin: auto;
     }
 
+  .fotoAutor{
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(51, 61, 92, 0);
+
+  }
+
+  form label input, form label textarea {
+    margin-top: 7%;
+  }
+
+  form label {
+    font-size: 32px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 45px;
+  }
+
   .conteudoTexto p {
     padding: 0;
     width: 90%;
@@ -298,7 +319,7 @@ button{
     font-size: 50px; }
 
   .video{
-    width: 100%;
+    width: 90%;
     height: 500px;
   }
 
